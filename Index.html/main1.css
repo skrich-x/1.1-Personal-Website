@@ -5,7 +5,7 @@
   font-family:Verdana;
 }
 /*413 × 182*/
-img{
+.logo{
   padding:3px;
    border:1.5px solid #000F3D;
    background-color:white;
@@ -18,7 +18,7 @@ h3 {
   font-family:Arial;
   margin: 0 auto;
   width: 350px;
-  padding-top:20px;
+  padding-top:19px;
 
 
 }
@@ -40,27 +40,18 @@ body{
 
 .footer{
   opacity: 1;
-  height: 10em;
-  background-color: rgba(0,0,0,0.6);
+  height: 4em;
+  margin: auto;
+  margin-bottom: -20px;
+  align-content:center;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index:1;
+
 }
 
-.icons{
+.icons img{
+  margins: auto;
   display: inline-block;
-    letter-spacing: .5px;
-    border: .5px solid #8c8c8c;
-    padding: none;
-    margin:  0 auto;
-    align-content:center;
-    text-decoration:none;
-    font-weight: bold;
-}
+  z-index:0;
 
-
-a:link{
-  text-decoration:none;
-  color:white;
-
-}
-a:visited{
-  color:#F8EEE5;
 }
