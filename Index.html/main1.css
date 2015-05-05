@@ -38,17 +38,20 @@ body{
     width: 100%;
   }
 
-.footer .push{
+.footer{
   opacity: 1;
   height: 4em;
   margin: auto;
   margin-bottom: -20px;
   align-content:center;
   background-color: rgba(255, 255, 255, 0.5);
+  z-index:1;
+
 }
 
 .icons img{
-  padding-top: 5em;
   margins: auto;
   display: inline-block;
+  z-index:0;
+
 }
