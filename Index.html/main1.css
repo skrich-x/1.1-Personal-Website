@@ -52,13 +52,3 @@ body{
   margins: auto;
   display: inline-block;
 }
-
-
-a:link{
-  text-decoration:none;
-  color:white;
-
-}
-a:visited{
-  color:#F8EEE5;
-}
